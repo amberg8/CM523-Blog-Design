@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto+Slab&family=Special+Elite&display=swap');
+
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::after,
+  *::before {
+    box-sizing: content-box;
+ }
+p{
+  font-family: "roboto slab";
+  font-size: 16px;
+}
+Header{
+  height: 120px;
+  width: 850px;
+  margin: 0;
+  padding: 4px;
+  border-top: 3px solid #bd4c5b;
+  border-bottom: 3px solid #bd4c5b;
+}
+h2 {
+  border-left: 5px solid #bd4c5b;
+    padding-left: 15px;
+  padding-bottom: 0px;
+  font-size: 30px;
+}
+.header-group {
+    padding-top: 40px;
+padding-bottom: 40px;
+}
+body{
+  background: white;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  padding: 0;
+  color: #333;
+}
+.first-letter{
+  background-color: rgba(113, 21, 21, 0.049);
+  padding: 0.5em 2em;
+  width: 600px;
+  font-size: 18px
+}
+.first-letter::first-letter {
+  Font-Family:"Special Elite";
+  font-size: 30px;
+  color: #bd4c5b;
+}
+
+  article {
+    max-width: 650px;
+    margin-left: 0;
+    margin-right: auto;
+  }
+.branding{
+    font-family: 'PT Serif', serif;
+    font-family: 'Special Elite', cursive;
+    font-size: 3rem;
+    letter-spacing: 0.2em;
+    Line-height: 1;
+    color:#444;
+    Text-align:center;
+}
+h1 {
+ 
+  font-size: 85px;
+  max-width: 600px;
+  font-weight: 800;
+  margin: 0px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  line-height: 70px;
+  letter-spacing: 3px;
+}
+
+
+.skill-levels{
+   background-color: rgb(113, 21, 21, 0.049);
+  padding: 0.5em 2em;
+  font-family:"roboto slab";
+}
+
+
+blockquote {
+  display: block;
+  Text-align:center;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: .1rem;
+  line-height: 100%;
+  padding: 20px;
+color: #872a2af4;
+  text-indent: 10px;
+}
